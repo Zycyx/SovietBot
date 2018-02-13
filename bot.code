@@ -1,0 +1,10 @@
+const Discord = require("discord.js");
+var bot = new Discord.Client();
+
+bot.on ("ready", function() {
+  console.log("Ready");
+})
+
+client.login(proccess.env.BOT_TOKEN);
+
+// Also did you really think i was gonna post my token here?
